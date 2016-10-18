@@ -52,6 +52,8 @@ Login to the User Interface (UI)
 9. Compile the program fractals.c
  .. code-block:: console
     
-    cc fractals.c -o fractals -lm
+    cc fractals.c -o fractals 
+    
+10. Submit the job to the local cluster:
 
 
