@@ -41,6 +41,9 @@ Run your first script
 
 7. Run the script again. What does it say?
 
+Submit a job to the cluster
+.................
+
 8. Lets compile a program and run it on the cluster
  .. code-block:: console
  
@@ -54,9 +57,6 @@ Run your first script
  .. code-block:: console
     
     cc fractals.c -o fractals 
-
-Submit a job to the cluster
-.................
     
 10. Submit the job to the local cluster:
 
