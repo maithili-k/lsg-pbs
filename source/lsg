@@ -1,27 +1,5 @@
-.. _FAQ:
+
 
 **************************
 Frequently asked questions
 **************************
-.. contents:: 
-    :depth: 4  
-
-
-===============
-Getting started
-===============
-
-.. _where-to-start:
-
-I never worked with the Grid before. Where is a good starting point?
-====================================================================
-
-New users are advised to read through our tutorial page, the :ref:`prerequisites` and :ref:`first-grid-job` which guides you through the whole process from getting a Grid certificate to the actual job run. The Grid team at SURFsara is willing to assist, just contact helpdesk@surfsara.nl.
-
-
-.. _grid-terms:
-
-Where can I lookup up Grid terms?
-=================================
-
-Check out the file Grid Glossary :download:`pdf <Tutorials/MOOC/slides/L5_W1_Grid_Glossary.pdf>` that contains most of the basic Grid terminology and abbreviations.
