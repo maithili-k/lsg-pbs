@@ -1,9 +1,8 @@
 
-.. _login:
+.. _pbs-jobs:
 
-*****************
 Login to the User Interface (UI)
-*****************
+...............
 1. Log in to the :abbr:`LSG (Life Science Grid)` User Interface. We will login into the "kun" cluster located in Nijmegen:
 
   .. code-block:: console
@@ -27,6 +26,9 @@ Login to the User Interface (UI)
      cd local-job
      ls
      
+Run your first script
+....................
+     
 5. Lets run your first script!
  .. code-block:: console
 
@@ -48,11 +50,13 @@ Login to the User Interface (UI)
    -rw-rw-r-- 1 homer homer hello.sh
    -rw-rw-r-- 1 homer homer wrapper.sh
    
-   
 9. Compile the program fractals.c
  .. code-block:: console
     
     cc fractals.c -o fractals 
+
+Submit a job to the cluster
+.................
     
 10. Submit the job to the local cluster:
 
