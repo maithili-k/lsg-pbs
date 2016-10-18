@@ -49,8 +49,8 @@ Login to the User Interface (UI)
    -rw-rw-r-- 1 homer homer wrapper.sh
    
    
- 9. Compile the program fractals.c
+9. Compile the program fractals.c
   .. code-block:: console
-    
+    cc fractals.c -o fractals -lm
 
 
