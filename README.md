@@ -14,7 +14,7 @@
 *Both groups will be strongly encouraged to attend the basic and advanced programs*
 
 Program:
-........
+--------
 Day 1: *Basic*
 
 9.00   - 10.00  -  Presentation: Introduction to SURFsara e-Infrastructures
