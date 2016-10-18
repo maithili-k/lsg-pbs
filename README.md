@@ -1,6 +1,6 @@
 # Course at Nijmegen: Linux, Python and Life science grid
 
-**Aim**: An introductory course that will cover:
+**Aim**:        An introductory course that will cover:
 * *Basic*: Command line in Linux, basic programming in Python, various e-infrastructures
 * *Advanced*: Advanced python, git version control, Cluster and grid computing - job submission to life science grid, concept of parallelization and looping, concept of multi-core jobs, Cloud services 
 
@@ -13,8 +13,8 @@
 * *Group 2*: beginners - 20 people
 *Both groups will be strongly encouraged to attend the basic and advanced programs*
 
-**Program**:
-
+Program:
+........
 Day 1: *Basic*
 
 9.00   - 10.00  -  Presentation: Introduction to SURFsara e-Infrastructures
