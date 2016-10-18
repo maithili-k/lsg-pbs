@@ -81,14 +81,14 @@ Submit a job to the cluster
 13. Once the job is ready the status will be (or dont show this part and ask if anyone has a different output)
  .. code-block:: console
  
- maithilk$ qstat 6401
+  maithilk$ qstat 6401
   qstat: Unknown Job Id Error 6401.gb-ce-wur.els.sara.nl
 
 14. You should have an output file "output". Display the result
  .. code-block:: console
 
- convert output "output.png"
- display output
+  convert output "output.png"
+  display output
  
  
 
