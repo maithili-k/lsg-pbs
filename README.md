@@ -11,6 +11,7 @@
 **Who**: Target audience: 
 * *Group 1*: absolute beginners - 40 people
 * *Group 2*: beginners - 20 people
+
 *Both groups will be strongly encouraged to attend the basic and advanced programs*
 
 Program:
