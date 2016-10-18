@@ -21,10 +21,10 @@ Login to the User Interface (UI)
 
      $ls
      
-4. Go to the directory pbs
+4. Go to the directory local-job
  .. code-block:: console
 
-     $cd pbs
+     $cd local-job
      $ls
      
 5. Lets run your first program!
@@ -32,7 +32,12 @@ Login to the User Interface (UI)
 
      $./hello.sh
      
-6. Lets change  
+6. Lets change the script to sat hello your-name
+ .. code-block:: console
+
+     $*editor* hello.sh 
+
+7. 
      
 
 
