@@ -50,7 +50,8 @@ Login to the User Interface (UI)
    
    
 9. Compile the program fractals.c
-  .. code-block:: console
+ .. code-block:: console
+    
     cc fractals.c -o fractals -lm
 
 
