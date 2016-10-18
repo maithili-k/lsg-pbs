@@ -2,17 +2,18 @@
 
 Here I will set up examples to submit PBS jobs on the kun cluster at Nijmegen. This will be used for a hands-on session at Donders Institute for brain, cognition and behaviour on 21-22 Nov, 2016.
 
-..**Aim**: An introductory course that will cover:
-         *Basic: Command line in Linux, basic programming in Python, various e-infrastructures
-         *Advanced: Advanced python, git version control, Cluster and grid computing - job submission to life science grid, concept of parallelization and looping, concept of multi-core jobs, Cloud services 
+**Aim**: An introductory course that will cover:
+* *Basic*: Command line in Linux, basic programming in Python, various e-infrastructures
+* *Advanced*: Advanced python, git version control, Cluster and grid computing - job submission to life science grid, concept of parallelization and looping, concept of multi-core jobs, Cloud services 
 
 **Where**: Donders Institute for Brain, Cognition and Behavior, Nijmegen
 
 **When**: November 21-22, 2016
 
-**Who**: Target audience: Group 1. absolute beginners - 40 people
-                      Group 2. beginners - 20 people
-                      Both groups will be strongly encouraged to attend the basic and advanced programs
+**Who**: Target audience: 
+* *Group 1*: absolute beginners - 40 people
+* *Group 2*: beginners - 20 people
+*Both groups will be strongly encouraged to attend the basic and advanced programs*
 
 Program:
 
