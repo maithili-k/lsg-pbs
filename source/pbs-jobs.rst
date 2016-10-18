@@ -1,9 +1,9 @@
 
 .. _pbs-jobs:
 
-Login to the User Interface (UI)
+Login to the User Interface
 ...............
-1. Log in to the :abbr:`LSG (Life Science Grid)` User Interface. We will login into the "kun" cluster located in Nijmegen:
+1. Login to the Life Science Grid (LSG) User Interface. We will login into the "kun" cluster located in Nijmegen:
 
   .. code-block:: console
 
@@ -58,6 +58,16 @@ Submit a job to the cluster
     
     cc fractals.c -o fractals 
     
-10. Submit the job to the local cluster:
+10. What is inside the wrapper.sh
+ .. code-block:: console
+    
+    cat wrapper.sh
+
+11. Submit the job to the local cluster
+ .. code-block:: console
+ qsub wrapper.sh
+
+6401.gb-ce-ams.els.sara.nl
+
 
 
