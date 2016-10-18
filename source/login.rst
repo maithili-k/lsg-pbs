@@ -28,7 +28,7 @@ Login to the User Interface (UI)
      $ls
      
 5. Lets run your first program!
-.. code-block:: console
+ .. code-block:: console
 
      $./hello.sh
      
