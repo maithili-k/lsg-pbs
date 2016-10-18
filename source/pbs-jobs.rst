@@ -73,7 +73,6 @@ Submit a job to the cluster
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
-  maithilk$ qstat 6401
   Job ID                    Name             User            Time Use S Queue
   ------------------------- ---------------- --------------- -------- - -----
   6401.gb-ce-wur           wrapper.sh       maithilk        00:00:00 R medium 
@@ -90,7 +89,10 @@ Submit a job to the cluster
   convert output "output.png"
   display output
  
- 
+15. System commands
+the error output files location
+what if you have i/p o/p those examples
+walltime: for how long will the system wait? etc
 
 
 
