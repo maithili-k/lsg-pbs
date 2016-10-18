@@ -17,13 +17,10 @@ The Life Science Grid is open to all Life Scientists based in the Netherlands. I
 
 The LSG infrastructure is tailored specifically for applications within the life-sciences domain, with features that follow-up on specific difficulties experienced by today’s Life Scientists. Data and applications can be shared not only among colleagues in your own research lab but also with collaborators at other locations, which is not a trivial thing in highly secured hospital environments. Data may also be secured behind the institute walls if needed. 
 
-.. _lsg-clusters:
+
 ============
 LSG clusters 
 ============
-
-.. image:: /Images/LSG_700px.png
-	:align: right
 
 Currently, ten :abbr:`LSG (Life Science Grid)` clusters are in place at the following sites:    
 
@@ -49,4 +46,3 @@ Currently, ten :abbr:`LSG (Life Science Grid)` clusters are in place at the foll
 |**LSG_WUR**  | Wageningen|
 +-------------+-----------+         
 
-The technical specifications of a single :abbr:`LSG (Life Science Grid)` cluster are described in :ref:`specs-lsg`. 
