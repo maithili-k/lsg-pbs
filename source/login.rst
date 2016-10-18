@@ -27,7 +27,7 @@ Login to the User Interface (UI)
      $cd local-job
      $ls
      
-5. Lets run your first program!
+5. Lets run your first script!
  .. code-block:: console
 
      $./hello.sh
@@ -37,7 +37,15 @@ Login to the User Interface (UI)
 
      $*editor* hello.sh 
 
-7. 
+7. Run the script again. What does it say?
+
+8. let us compile a program and run it on the cluster
+ .. code-block:: console
+ 
+    ls -l
+
+   -rw-r--r-- 1 homer homer fractals.c
+   -rw-rw-r-- 1 homer homer wrapper.sh
      
 
 
