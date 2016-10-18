@@ -8,7 +8,7 @@ Login to the User Interface (UI)
 
   .. code-block:: console
 
-     $ssh -X homer@gb-ui-kun.els.sara.nl  # replace homer with your username 
+     $ssh -X ****@gb-ui-kun.els.sara.nl  # replace **** with your username 
 
 2. Where are you? 
 
