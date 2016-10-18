@@ -39,6 +39,7 @@ Day 2: *Advanced*
 12.00 - 13.00   -  Lunch
 
 13.00 - 14.00   -  Presentation: Introduction to Life science grid (SURFsara) + Short talk on their use case (Donders Institute)
+.. note:: 
 
 14.00 - 15.00   -  Hands on: Submitting jobs to the grid (http://doc.grid.surfsara.nl/en/latest/Pages/PBS/pbs.html)
 
