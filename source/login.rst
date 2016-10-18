@@ -16,7 +16,7 @@ Login to the User Interface (UI)
 
      $pwd 
      
-3.What are the contents of your home directory?
+3. What are the contents of your home directory?
  .. code-block:: console
 
      $ls
