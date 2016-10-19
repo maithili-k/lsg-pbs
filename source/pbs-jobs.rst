@@ -127,16 +127,14 @@ Advanced functions
 
  **Local queues** On the LSG clusters you can find different queue types. 
 
-  =============== ===========================
-  Queue           Max. Walltime (hh:mm:ss)
-  =============== ===========================
-  express         00:30:00
-  infra           00:30:00
-  medium          36:00:00
-  long            72:00:00
-  =============== ===========================
-
-
+=============== ===========================
+Queue           Max. Walltime (hh:mm:ss)
+=============== ===========================
+express         00:30:00
+infra           00:30:00
+medium          36:00:00
+long            72:00:00
+=============== ===========================
 
 This can be specified with the following command
  .. code-block:: console
