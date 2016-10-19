@@ -20,21 +20,21 @@ Login to the User Interface
 
      ls
      
-4. Go to the directory local-job
+4. Go to the directory local-pbs-job
  .. code-block:: console
 
-     cd local-job
+     cd local-pbs-job
      ls
      
 Run your first script
 ....................
      
-5. Lets run your first script!
+5. Let's run your first script!
  .. code-block:: console
 
      ./hello.sh
      
-6. Lets change the script to sat hello your-name
+6. Let's change the script to say hello 'your-name'
  .. code-block:: console
 
      *editor* hello.sh 
@@ -44,7 +44,7 @@ Run your first script
 Submit a job to the cluster
 .................
 
-8. Lets compile a program and run it on the cluster
+8. Let's compile a program and run it on the cluster
  .. code-block:: console
  
    ls -l
@@ -67,12 +67,14 @@ Submit a job to the cluster
  .. code-block:: console
   
   qsub wrapper.sh
+  
   6401.gb-ce-ams.els.sara.nl
 
-12. This command returns a jobID (6401) that can be used to monitor the progress of the job
+12. This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
+  
   Job ID                    Name             User            Time Use S Queue
   ------------------------- ---------------- --------------- -------- - -----
   6401.gb-ce-wur           wrapper.sh       maithilk        00:00:00 R medium 
@@ -81,6 +83,7 @@ Submit a job to the cluster
  .. code-block:: console
  
   maithilk$ qstat 6401
+  
   qstat: Unknown Job Id Error 6401.gb-ce-wur.els.sara.nl
 
 14. You should have an output file "output". Display the result
