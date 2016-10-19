@@ -89,11 +89,11 @@ Submit a job to the cluster
 14. This suggests that the job is done. What is your output?
  .. code-block:: console
  
- ls
+  ls
  
- -rw------- 1 maithilk maithilk      95  Oct 19 12:15 wrapper.sh.e653789
- -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
- -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
+  -rw------- 1 maithilk maithilk      95  Oct 19 12:15 wrapper.sh.e653789
+  -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
+  -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
   
  15. What is in the wrapper.sh.e** and wrapper.sh.o*** files?
  
