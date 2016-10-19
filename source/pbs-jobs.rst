@@ -101,7 +101,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
   -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
   
-15. What is in the wrapper.sh.e** and wrapper.sh.o*** files?
+15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
  
 16. Display the result of fractals run
  .. code-block:: console
@@ -121,7 +121,24 @@ Advanced functions
 
   qstat           # List all the running/queued jobs in the cluster
 
-18. **Walltime**
+18. **Walltime** For how long will the sysem wait to run your job. Specify the maximum job walltime in hh::mm:ss
+ .. code-block:: console
+  #PBS -l walltime=4:00:00 # the job will run 4h at maximum
+
+**Local queues** On the LSG clusters you can find different queue types. 
+
+Queues
+======
+ 
+=============== ===========================
+Queue           Max. Walltime (hh:mm:ss)
+=============== ===========================
+express         00:30:00
+infra           00:30:00
+medium          36:00:00
+long            72:00:00
+=============== ===========================
+
 
 System commands
 
