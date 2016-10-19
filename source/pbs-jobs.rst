@@ -82,7 +82,7 @@ Submit a job to the cluster
 13. Once the job is ready the status will be (or dont show this part and ask if anyone has a different output)
  .. code-block:: console
  
-  maithilk$ qstat 6401
+  qstat 6401
   
   qstat: Unknown Job Id Error 6401.gb-ui-kun.els.sara.n
 
