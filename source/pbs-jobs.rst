@@ -125,7 +125,7 @@ Advanced functions
  .. code-block:: console
   #PBS -l walltime=4:00:00 # the job will run 4h at maximum
 
- **Local queues** On the LSG clusters you can find different queue types. 
+**Local queues** On the LSG clusters you can find different queue types. 
 
 =============== ===========================
 Queue           Max. Walltime (hh:mm:ss)
@@ -135,8 +135,8 @@ infra           00:30:00
 medium          36:00:00
 long            72:00:00
 =============== ===========================
-
 This can be specified with the following command
+ 
  .. code-block:: console
    qsub -q long wrapper.sh # allow job to run for 72 hours
  
