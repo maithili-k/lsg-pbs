@@ -58,12 +58,12 @@ Submit a job to the cluster
     
     cc fractals.c -o fractals 
     
-10. What is inside the wrapper.sh
+10. What is in the file wrapper.sh?
  .. code-block:: console
     
     cat wrapper.sh
 
-11. Submit the job to the local cluster
+11. Submit the job to the cluster
  .. code-block:: console
   
   qsub wrapper.sh
@@ -91,18 +91,30 @@ Submit a job to the cluster
  
  ls
  
-   
+ -rw------- 1 maithilk maithilk      95  Oct 19 12:15 wrapper.sh.e653789
+ -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
+ -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
+  
+ 15. What is in the wrapper.sh.e** and wrapper.sh.o*** files?
  
- 
-
-
-You should have an output file "output". Display the result
+ 16. Display the result of fractals run
  .. code-block:: console
 
   convert output "output.png"
   display output
  
-15. System commands
+17. Additional commands
+ .. code-block:: console
+
+ qstat -u homer  # replace homer with your username, lists your jobs
+
+ qdel 6401       # replace 6401 with your jobID, cancels your submitted job
+
+ qstat           # List all the running/queued jobs in the cluster
+
+
+
+System commands
 the error output files location
 what if you have i/p o/p those examples
 walltime: for how long will the system wait? etc
