@@ -103,7 +103,6 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
 15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
-
 16. The default stdout/stderr target is the directory that you submit the job from. The following line in wrapper.sh changes the stdout/stderr directory to a specified path (e.g. samples directory):
  .. code-block:: console
  
