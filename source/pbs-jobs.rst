@@ -91,9 +91,6 @@ Submit a job to the cluster
  
  ls
  
-   -rw-r--r-- 1 homer homer fractals.c
-   -rw-rw-r-- 1 homer homer hello.sh
-   -rw-rw-r-- 1 homer homer wrapper.sh
    
  
  
