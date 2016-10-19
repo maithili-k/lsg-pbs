@@ -84,9 +84,22 @@ Submit a job to the cluster
  
   qstat 6401
   
-  qstat: Unknown Job Id Error 6401.gb-ui-kun.els.sara.n
+  qstat: Unknown Job Id Error 6401.gb-ui-kun.els.sara.nl
 
-14. You should have an output file "output". Display the result
+14. This suggests that the job is done. What is your output?
+ .. code-block:: console
+ 
+ ls
+ 
+   -rw-r--r-- 1 homer homer fractals.c
+   -rw-rw-r-- 1 homer homer hello.sh
+   -rw-rw-r-- 1 homer homer wrapper.sh
+   
+ 
+ 
+
+
+You should have an output file "output". Display the result
  .. code-block:: console
 
   convert output "output.png"
