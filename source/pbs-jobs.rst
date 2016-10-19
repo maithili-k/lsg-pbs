@@ -123,29 +123,9 @@ Advanced functions
 
 18. **Walltime** For how long will the sysem wait to run your job. Specify the maximum job walltime in hh:mm:ss
  .. code-block:: console
-  PBS -l walltime=4:00:00 # the job will run 4h at maximum
-
-
-**Local queues** On the LSG clusters you can find different queue types. 
-
-=============== ===========================
-Queue           Max. Walltime (hh:mm:ss)
-=============== ===========================
-express         00:30:00
-infra           00:30:00
-medium          36:00:00
-long            72:00:00
-=============== ===========================
-This can be specified with the following command
  
- .. code-block:: console
-   qsub -q long wrapper.sh # allow job to run for 72 hours
- 
+ PBS -l walltime=4:00:00 # the job will run 4h at maximum
 
-System commands
-
-what if you have i/p o/p those examples
-walltime: for how long will the system wait? etc
 
 
 
