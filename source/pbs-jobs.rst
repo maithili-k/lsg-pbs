@@ -106,11 +106,11 @@ Submit a job to the cluster
 17. Additional commands
  .. code-block:: console
 
- qstat -u homer  # replace homer with your username, lists your jobs
+  qstat -u homer  # replace homer with your username, lists your jobs
 
- qdel 6401       # replace 6401 with your jobID, cancels your submitted job
+  qdel 6401       # replace 6401 with your jobID, cancels your submitted job
 
- qstat           # List all the running/queued jobs in the cluster
+  qstat           # List all the running/queued jobs in the cluster
 
 
 
