@@ -102,8 +102,13 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
   
 15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
- 
-16. Display the result of fractals run
+
+16. The default stdout/stderr target is the directory that you submit the job from. The following line in wrapper.sh changes the stdout/stderr directory to a specified path (e.g. samples directory):
+ .. code-block:: console
+  PBS -e /home/homer/samples/
+  PBS -o /home/homer/samples/
+
+17. Display the result of fractals run
  .. code-block:: console
 
   convert output "output.png"
@@ -112,7 +117,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
 Advanced functions
 ....................
 
-17. Additional commands
+18. Additional commands
  .. code-block:: console
 
   qstat -u homer  # replace homer with your username, lists your jobs
@@ -121,7 +126,7 @@ Advanced functions
 
   qstat           # List all the running/queued jobs in the cluster
 
-18. **Walltime** For how long will the sysem wait to run your job. Specify the maximum job walltime in hh:mm:ss in wrapper.sh
+19. **Walltime** For how long will the sysem wait to run your job? Specify the maximum job walltime in hh:mm:ss in wrapper.sh
  .. code-block:: console
  
   PBS -l walltime=4:00:00 # the job will run 4h at maximum
