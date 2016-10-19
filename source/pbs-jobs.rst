@@ -121,10 +121,10 @@ Advanced functions
 
   qstat           # List all the running/queued jobs in the cluster
 
-
+18. **Walltime**
 
 System commands
-the error output files location
+
 what if you have i/p o/p those examples
 walltime: for how long will the system wait? etc
 
