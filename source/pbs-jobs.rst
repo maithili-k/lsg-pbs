@@ -122,14 +122,12 @@ Advanced functions
   qstat           # List all the running/queued jobs in the cluster
 
 18. **Walltime** For how long will the sysem wait to run your job. Specify the maximum job walltime in hh::mm:ss
+      --------
  .. code-block:: console
   #PBS -l walltime=4:00:00 # the job will run 4h at maximum
 
 **Local queues** On the LSG clusters you can find different queue types. 
 
-Queues
-======
- 
 =============== ===========================
 Queue           Max. Walltime (hh:mm:ss)
 =============== ===========================
@@ -139,6 +137,10 @@ medium          36:00:00
 long            72:00:00
 =============== ===========================
 
+This can be specified with the following command
+ .. code-block:: console
+  qsub -q long wrapper.sh # allow job to run for 72 hours
+ 
 
 System commands
 
