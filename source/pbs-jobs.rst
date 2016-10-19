@@ -72,7 +72,7 @@ Submit a job to the cluster
   
   6401.gb-ce-kun.els.sara.nl
   
-This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job
+This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
 
 12. Monitor the progress of your job 
  .. code-block:: console
