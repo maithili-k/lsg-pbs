@@ -95,9 +95,9 @@ Submit a job to the cluster
   -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
   -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
   
- 15. What is in the wrapper.sh.e** and wrapper.sh.o*** files?
+15. What is in the wrapper.sh.e** and wrapper.sh.o*** files?
  
- 16. Display the result of fractals run
+16. Display the result of fractals run
  .. code-block:: console
 
   convert output "output.png"
