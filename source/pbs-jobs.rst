@@ -151,6 +151,11 @@ This can be specified with the following command
 But its a cluster! How can I speed up my processes?
 ...............
 
+20. Specify the number of cores to be allocated for your job
+ .. code-block:: console
+   
+ PBS -l nodes=1:ppn=2  # asks two cores on a single node
+
 
 
 
