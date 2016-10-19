@@ -69,8 +69,10 @@ Submit a job to the cluster
   qsub wrapper.sh
   
   6401.gb-ce-kun.els.sara.nl
+  
+This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job
 
-12. This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job
+12. 
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
@@ -78,6 +80,8 @@ Submit a job to the cluster
   Job ID                    Name             User            Time Use S Queue
   ------------------------- ---------------- --------------- -------- - -----
   6401.gb-ce-kun           wrapper.sh       maithilk        00:00:00 R medium 
+  
+  qstat -f 6401 # replace 6401 with your jobID
   
 13. Once the job is ready the status will be (or dont show this part and ask if anyone has a different output)
  .. code-block:: console
