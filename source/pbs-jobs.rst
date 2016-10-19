@@ -24,8 +24,12 @@ Login to the User Interface
  .. code-block:: console
 
      cd local-pbs-job
-     ls
+     ls -l
      
+   -rw-rw-r-- 1 maithilk maithilk 2644 Oct 19 11:28 fractals.c
+   -rw-rw-r-- 1 maithilk maithilk   19 Oct 19 11:14 hello.sh
+   -rw-rw-r-- 1 maithilk maithilk   70 Oct 19 11:25 wrapper.sh
+
 Run your first script
 ....................
      
@@ -34,26 +38,22 @@ Run your first script
 
      ./hello.sh
      
-6. Let's change the script to say hello 'your-name'
+6. It gives an error as you don't have the permission to execute it. Change the permission and execute it
+ .. code-block:: console
+
+     chmod +x hello.sh 
+     
+7. Let's change the script to say hello 'your-name'
  .. code-block:: console
 
      *editor* hello.sh 
 
-7. Run the script again. What does it say?
+8. Run the script again. What does it say?
 
 Submit a job to the cluster
 .................
 
-8. Let's compile a program and run it on the cluster
- .. code-block:: console
- 
-   ls -l
-
-   -rw-r--r-- 1 homer homer fractals.c
-   -rw-rw-r-- 1 homer homer hello.sh
-   -rw-rw-r-- 1 homer homer wrapper.sh
-   
-9. Compile the program fractals.c
+9. Let's compile a program and run it on the cluster
  .. code-block:: console
     
     cc fractals.c -o fractals 
