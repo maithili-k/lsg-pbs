@@ -23,12 +23,12 @@ Login to the User Interface
 4. Go to the directory local-pbs-job
  .. code-block:: console
 
-     cd local-pbs-job
-     ls -l
-     
-   -rw-rw-r-- 1 maithilk maithilk 2644 Oct 19 11:28 fractals.c
-   -rw-rw-r-- 1 maithilk maithilk   19 Oct 19 11:14 hello.sh
-   -rw-rw-r-- 1 maithilk maithilk   70 Oct 19 11:25 wrapper.sh
+   cd local-pbs-job
+   ls -l
+    -rw-rw-r-- 1 maithilk maithilk   50 Oct 31 11:41 hello.sh
+    drwxrwxr-x 2 maithilk maithilk   23 Oct 31 11:29 runfish
+    -rwxr-xr-x 1 maithilk maithilk 8.3K Oct 31 11:29 runFish.py
+    -rw-rw-r-- 1 maithilk maithilk  879 Oct 31 11:29 wrapper.sh
 
 Run your first script
 ....................
@@ -48,24 +48,19 @@ It gives an error as you don't have the permission to execute it.
 7. Let's change the script to say hello 'your-name'
  .. code-block:: console
 
-     *editor* hello.sh 
+     nano hello.sh 
 
 8. Run the script again. What does it say?
 
 Submit a job to the cluster
 .................
 
-9. Let's first compile the program
- .. code-block:: console
-    
-    cc fractals.c -o fractals 
-    
-10. What is in the file wrapper.sh?
+9. What is in the file wrapper.sh?
  .. code-block:: console
     
     cat wrapper.sh
 
-11. Submit the job to the cluster
+10. Submit the job to the cluster
  .. code-block:: console
   
   qsub wrapper.sh
@@ -74,7 +69,7 @@ Submit a job to the cluster
   
 This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
 
-12. Monitor the progress of your job 
+11. Monitor the progress of your job 
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
@@ -85,7 +80,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   qstat -f 6401 # replace 6401 with your jobID, this will give more details 
   
-13. Once the job is ready the status will be (or dont show this part and ask if anyone has a different output)
+12. Once the job is ready the status will be:
  .. code-block:: console
  
   qstat 6401
@@ -96,29 +91,27 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
  .. code-block:: console
  
   ls
- 
-  -rw------- 1 maithilk maithilk      95  Oct 19 12:15 wrapper.sh.e653789
-  -rw------- 1 maithilk maithilk     155  Oct 19 12:15 wrapper.sh.o653789
-  -rw-rw-r-- 1 maithilk maithilk 15595245 Oct 19 12:15 output
   
+  -rw-rw-r-- 1 maithilk maithilk     50 Oct 31 11:41 hello.sh
+  -rw-rw-r-- 1 maithilk maithilk 131479 Oct 31 13:10 PC1-2.png
+  drwxrwxr-x 2 maithilk maithilk     23 Oct 31 11:29 runfish
+  -rwxr-xr-x 1 maithilk maithilk   8456 Oct 31 13:10 runFish.py
+  -rw-rw-r-- 1 maithilk maithilk    879 Oct 31 11:29 wrapper.sh
+  -rw------- 1 maithilk maithilk   2355 Oct 31 13:10 wrapper.sh.e676459
+  -rw------- 1 maithilk maithilk    180 Oct 31 13:10 wrapper.sh.o676459
+ 
 15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
-16. The default stdout/stderr target is the directory that you submit the job from. The following line in wrapper.sh changes the stdout/stderr directory to a specified path (e.g. samples directory):
- .. code-block:: console
- 
-  PBS -e /home/homer/samples/
-  PBS -o /home/homer/samples/
-
-17. Display the result of fractals run
+16. Display the result of fractals run
  .. code-block:: console
 
   convert output "output.png"
-  display output
+  display PC1-2.png
 
 Advanced functions
 ....................
 
-18. Additional commands
+17. Additional commands
  .. code-block:: console
 
   qstat -u homer  # replace homer with your username, lists your jobs
@@ -127,7 +120,7 @@ Advanced functions
 
   qstat           # List all the running/queued jobs in the cluster
 
-19. **Walltime** For how long will the sysem wait to run your job? Specify the maximum job walltime in hh:mm:ss in wrapper.sh
+18. **Walltime** For how long will the sysem wait to run your job? Specify the maximum job walltime in hh:mm:ss in wrapper.sh
  .. code-block:: console
  
   PBS -l walltime=4:00:00 # the job will run 4h at maximum
@@ -148,10 +141,9 @@ This can be specified with the following command
    
    qsub -q long wrapper.sh # allow job to run for 72 hours
  
-But its a cluster! How can I speed up my processes?
 ...............
 
-20. Specify the number of cores to be allocated for your job
+19. Specify the number of cores to be allocated for your job
  .. code-block:: console
    
   PBS -l nodes=1:ppn=2  # asks two cores on a single node
