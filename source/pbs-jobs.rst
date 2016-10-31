@@ -112,12 +112,16 @@ Advanced functions
 
 17. Additional commands
  .. code-block:: console
+ 
+  qstat -f 6401   # Replace 6401 with your jobID, get details of the jobID 6401
 
-  qstat -u homer  # replace homer with your username, lists your jobs
+  qstat -u homer  # Replace homer with your username, lists your jobs
 
-  qdel 6401       # replace 6401 with your jobID, cancels your submitted job
+  qdel 6401       # Replace 6401 with your jobID, cancels your submitted job
 
   qstat           # List all the running/queued jobs in the cluster
+  
+  pbsnodes        # List all running jobs per worker node and core
 
 18. **Walltime** For how long will the sysem wait to run your job? Specify the maximum job walltime in hh:mm:ss in wrapper.sh
  .. code-block:: console
@@ -139,8 +143,6 @@ This can be specified with the following command
  .. code-block:: console
    
    qsub -q long wrapper.sh # allow job to run for 72 hours
- 
-...............
 
 19. Specify the number of cores to be allocated for your job
  .. code-block:: console
