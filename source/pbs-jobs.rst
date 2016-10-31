@@ -97,8 +97,8 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   drwxrwxr-x 2 maithilk maithilk     23 Oct 31 11:29 runfish
   -rwxr-xr-x 1 maithilk maithilk   8456 Oct 31 13:10 runFish.py
   -rw-rw-r-- 1 maithilk maithilk    879 Oct 31 11:29 wrapper.sh
-  -rw------- 1 maithilk maithilk   2355 Oct 31 13:10 wrapper.sh.e676459
-  -rw------- 1 maithilk maithilk    180 Oct 31 13:10 wrapper.sh.o676459
+  -rw------- 1 maithilk maithilk   2355 Oct 31 13:10 wrapper.sh.e6401
+  -rw------- 1 maithilk maithilk    180 Oct 31 13:10 wrapper.sh.o6401
  
 15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
