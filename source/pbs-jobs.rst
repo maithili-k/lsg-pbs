@@ -105,7 +105,6 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
 16. Display the result of fractals run
  .. code-block:: console
 
-  convert output "output.png"
   display PC1-2.png
 
 Advanced functions
