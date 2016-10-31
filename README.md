@@ -28,7 +28,7 @@ Day 1: *Basic*
 
 15.00 - 15.30   -  Coffee break + Cloud firing a Virtual Machine Demo (optional for interested users)
 
-16.00 - 17.00   -  Hands on: Continued -  Python basic commands cont.
+15.30 - 17.00   -  Hands on: Continued -  Python basic commands cont.
 
 
 Day 2: *Advanced*
