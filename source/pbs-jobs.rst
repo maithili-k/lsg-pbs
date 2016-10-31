@@ -63,7 +63,7 @@ Submit a job to the cluster
 10. Submit the job to the cluster
  .. code-block:: console
   
-  qsub wrapper.sh
+  qsub -q stud_queue wrapper.sh
   
   6401.gb-ce-kun.els.sara.nl
   
