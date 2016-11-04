@@ -46,12 +46,12 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   wrapper.sh.e6401
   wrapper.sh.o6401
  
-15. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
-
-16. Display the result of fractals run
+15. Display the result of fractals run
  .. code-block:: console
 
   display PC1-2.png
+
+16. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
 Advanced functions
 ....................
