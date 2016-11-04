@@ -51,7 +51,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
 
   display PC1-2.png
   
- In case this does not work, you can copy the file locally on your laptop and then view it. Open a new tab on your terminal and type:
+In case this does not work, you can copy the file locally on your laptop and then view it. Open a new tab on your terminal and type:
  .. code-block:: console
 
   scp user@gb-ui-kun.els.sara.nl:/home/user/local-pbs-job/PC1-2.png .  
