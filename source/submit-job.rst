@@ -55,7 +55,7 @@ In case this does not work, you can copy the file locally on your laptop and the
  
  .. code-block:: console
 
-  scp user@gb-ui-kun.els.sara.nl:/home/user/local-pbs-job/PC1-2.png .  
+  scp homer@gb-ui-kun.els.sara.nl:/home/homer/local-pbs-job/PC1-2.png .  # replace homer with your username
  
 16. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
