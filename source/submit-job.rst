@@ -26,7 +26,12 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   qstat -f 6401 # replace 6401 with your jobID, this will give more details 
   
-12. Once the job is ready the status will be:
+12. Run the command
+ .. code-block:: console
+ 
+  qstat
+  
+13. Once the job is ready the status will be:
  .. code-block:: console
  
   qstat 6401
