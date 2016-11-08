@@ -31,6 +31,8 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
  
   qstat
   
+What do you see? What does it mean?
+  
 13. Once the job is ready the status will be:
  .. code-block:: console
  
