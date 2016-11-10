@@ -22,7 +22,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   Job ID                    Name             User            Time Use S Queue
   ------------------------- ---------------- --------------- -------- - -----
-  6401.gb-ce-kun           wrapper.sh       maithilk        00:00:00 R medium 
+  6401.gb-ce-kun           wrapper.sh       maithilk        00:00:00 R stud_queue 
   
   qstat -f 6401 # replace 6401 with your jobID, this will give more details 
   
