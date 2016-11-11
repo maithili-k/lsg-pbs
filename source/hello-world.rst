@@ -7,7 +7,7 @@ Login to the User Interface
 
   .. code-block:: console
 
-     ssh -X homer@gb-ui-kun.els.sara.nl  # replace homer with your username 
+     ssh -X stud**@gb-ui-kun.els.sara.nl  # replace ** with the number at the end of your username 
 
 2. Where are you? 
 
@@ -51,6 +51,28 @@ It gives an error as you don't have the permission to execute it.
      nano hello.sh 
 
 8. Run the script again. What does it say?
+
+9. So shall we run the same example on the cluster?
+
+ .. code-block:: console
+  
+  qsub -q stud_queue wrapper.sh
+  
+  6401.gb-ce-kun.els.sara.nl
+  
+This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
+
+10. Monitor the progress of your job 
+ .. code-block:: console
+  
+  qstat 6401   # replace 6401 with your jobID
+  
+  Job ID                    Name             User            Time Use S Queue
+  ------------------------- ---------------- --------------- -------- - -----
+  6401.gb-ce-kun           wrapper.sh       maithilk        00:00:00 R stud_queue 
+  
+  qstat -f 6401 # replace 6401 with your jobID, this will give more details 
+  
 
 
 
