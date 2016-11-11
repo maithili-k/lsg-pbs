@@ -3,7 +3,7 @@
 
 Login to the User Interface
 ...............
-1. Login to the Life Science Grid (LSG) User Interface. We will login into the "kun" cluster located in Nijmegen:
+1. Open a shell and login to the Life Science Grid (LSG) User Interface with the following command. We will login into the "kun" cluster located in Nijmegen:
 
   .. code-block:: console
 
