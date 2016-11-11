@@ -55,7 +55,7 @@ Run your first script
 
  .. code-block:: console
   
-  qsub -q stud_queue wrapper.sh
+  qsub -q stud_queue hello.sh
   
 This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job, as shown below:
   
@@ -71,7 +71,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   Job ID                    Name             User            Time Use S Queue
   ------------------------- ---------------- --------------- -------- - -----
-  6401.gb-ce-kun           wrapper.sh       maithilk        00:00:00 R stud_queue 
+  6401.gb-ce-kun           hello.sh       maithilk        00:00:00 R stud_queue 
   
   qstat -f 6401 # replace 6401 with your jobID, this will give more details 
   
@@ -94,7 +94,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   hello.sh.e6401
   hello.sh.o6401
 
-12. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
+12. What is in the hello.sh.e6401 and hello.sh.o6401 files?
 
 
 
