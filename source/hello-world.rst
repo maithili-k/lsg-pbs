@@ -57,11 +57,12 @@ Run your first script
   
   qsub -q stud_queue wrapper.sh
   
+This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job, as shown below:
+  
  .. code-block:: console 
  
   6401.gb-ce-kun.els.sara.nl
   
-This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
 
 9. Monitor the progress of your job 
  .. code-block:: console
@@ -81,7 +82,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   qstat: Unknown Job Id Error 6401.gb-ui-kun.els.sara.nl
 
-14. This suggests that the job is done. What is your output?
+11. This suggests that the job is done. What is your output?
  .. code-block:: console
   
   ls
@@ -93,6 +94,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   hello.sh.e6401
   hello.sh.o6401
 
+12. What is in the wrapper.sh.e*** and wrapper.sh.o*** files?
 
 
 
