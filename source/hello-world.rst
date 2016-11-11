@@ -64,7 +64,7 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   6401.gb-ce-kun.els.sara.nl
   
 
-9. Monitor the progress of your job 
+9. Monitor the progress of your job using ths jobID
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
