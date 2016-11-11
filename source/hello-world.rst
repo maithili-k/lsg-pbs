@@ -25,6 +25,10 @@ Login to the User Interface
 
    cd local-pbs-job
    ls -l
+   
+You will see the output 
+ .. code-block:: console
+ 
     -rw-rw-r-- 1 maithilk maithilk   50 Oct 31 11:41 hello.sh
     drwxrwxr-x 2 maithilk maithilk   23 Oct 31 11:29 runfish
     -rwxr-xr-x 1 maithilk maithilk 8.3K Oct 31 11:29 runFish.py
@@ -38,21 +42,14 @@ Run your first script
 
      ./hello.sh
   
-It gives an error as you don't have the permission to execute it.
-
-6. Change the permission and execute it
- .. code-block:: console
-
-     chmod +x hello.sh 
-     
-7. Let's change the script to say hello 'your-name'
+6. Let's change the script to say hello 'your-name'
  .. code-block:: console
 
      nano hello.sh 
 
-8. Run the script again. What does it say?
+7. Run the script again. What does it say?
 
-9. So shall we run the same example on the cluster?
+8. So shall we run the same example on the cluster?
 
  .. code-block:: console
   
@@ -64,7 +61,7 @@ It gives an error as you don't have the permission to execute it.
   
 This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
 
-10. Monitor the progress of your job 
+9. Monitor the progress of your job 
  .. code-block:: console
   
   qstat 6401   # replace 6401 with your jobID
@@ -75,7 +72,24 @@ This command returns a jobID (e.g., here it is 6401) that can be used to monitor
   
   qstat -f 6401 # replace 6401 with your jobID, this will give more details 
   
+10. Once the job is ready the status will be:
+ .. code-block:: console
+ 
+  qstat 6401
+  
+  qstat: Unknown Job Id Error 6401.gb-ui-kun.els.sara.nl
 
+14. This suggests that the job is done. What is your output?
+ .. code-block:: console
+  
+  ls
+  
+  hello.sh
+  runfish
+  runFish.py
+  wrapper.sh
+  hello.sh.e6401
+  hello.sh.o6401
 
 
 
