@@ -58,6 +58,8 @@ It gives an error as you don't have the permission to execute it.
   
   qsub -q stud_queue wrapper.sh
   
+ .. code-block:: console 
+ 
   6401.gb-ce-kun.els.sara.nl
   
 This command returns a jobID (e.g., here it is 6401) that can be used to monitor the progress of the job.
