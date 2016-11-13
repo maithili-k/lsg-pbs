@@ -40,7 +40,7 @@ What do you see? What does it mean?
 
 5. What does the wrapper.sh.e** file say?
 
-6. The path to the software was not given correctly, so the job failed to run the example properly and generate the output. Uncomment the line no. X (remove the #), save the script and run the qsub command again
+6. The path to the software was not given correctly, so the job failed to run the example properly and generate the output. In the wrapper.sh the variable name SPARK_HOME should have the path /cvmfs (the / was missing in the path). Add the /, save the script and run the qsub command again
 
  .. code-block:: console
 
