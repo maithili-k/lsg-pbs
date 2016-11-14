@@ -35,7 +35,9 @@ This can be specified with the following command
    
    qsub -q long wrapper.sh # allow job to run for 72 hours
 
-3. Specify the number of cores to be allocated for your job
+3. Specify the number of cores to be allocated for your job. What will this do?
  .. code-block:: console
    
   PBS -l nodes=1:ppn=2  # asks two cores on a single node
+  
+4. Where is the software installed? Is it local on your cluster or elsewhere? Where is the input dataset?
